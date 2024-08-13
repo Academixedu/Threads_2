@@ -1,7 +1,5 @@
 public class DeadLock{
-    // Write Your Code Here
-    
-    // Write Your Code Here    
+    // Write Your Code Here 
         public static void main(String[] args) {  
             final String resource1 = "Thread1";  
             final String resource2 = "Thread2";  

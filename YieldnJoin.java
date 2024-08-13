@@ -1,7 +1,6 @@
 public class YieldnJoin{
     // Write Your Code Here
     
-        // Write Your Code Here
             public static void main(String[] args) throws InterruptedException {
                 // Create two threads
                 Thread thread1 = new Thread(){

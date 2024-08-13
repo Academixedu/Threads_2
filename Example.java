@@ -1,8 +1,6 @@
 public class Example{
     // Preapare an Example for Inter Thread Communincation use wait() and Notify() Methods
-    
-        // Preapare an Example for Inter Thread Communincation use wait() and Notify() Methods
-        public synchronized void m1() {
+            public synchronized void m1() {
             try{
                 wait(1000);
             } catch (Exception e) {
