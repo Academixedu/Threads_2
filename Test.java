@@ -17,7 +17,7 @@ public static void main(String[] args) {
       }
     }
   };
-  t1.setPriority(2);
+  t1.setPriority(3);
   t1.start();
   }
 }
