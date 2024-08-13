@@ -1,3 +1,10 @@
-public class DeadLock{
-// Write Your Code Here
-}
+//extending thread class example
+class Multi extends Thread{  
+    public void run(){  
+    System.out.println("thread is running...");  
+    }  
+    public static void main(String args[]){  
+    Multi t1=new Multi();  
+    t1.start();  
+     }  
+    }  
