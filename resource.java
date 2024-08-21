@@ -1,4 +1,4 @@
- class Resource {  
+public class resource {  
     public synchronized void action(Resource otherResource) {
     System.out.println(Thread.currentThread().getName() + ": Holding " + this + " and waiting for " + otherResource);
     otherResource.action(this);
