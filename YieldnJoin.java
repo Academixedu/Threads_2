@@ -8,7 +8,6 @@ public class YieldnJoin extends Thread {
     public static void main(String[] args) {
         YieldnJoin y = new YieldnJoin();
 
-        // Thread 1
         Thread t = new Thread() {
             public void run() {
                 y.op();
@@ -17,7 +16,6 @@ public class YieldnJoin extends Thread {
         t.setPriority(5);
         t.start();
 
-        // Thread 2
         Thread t1 = new Thread() {
             public void run() {
                 y.op();
@@ -27,10 +25,9 @@ public class YieldnJoin extends Thread {
         t1.setName("Yield");
         t1.start();
 
-        // Yielding the current thread
+      
         Thread.yield();
 
-        // Thread 3
         Thread t2 = new Thread() {
             public void run() {
                 y.op();
